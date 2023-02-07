@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>CountingUp</title>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Counting Up</h1>
+        <P>Count up to a larger number with multiples of a smaller one</P>
+        <form>
+          <label for="biggerNumber">Count up to</label>
+          <input id="biggerNumber" type="number" name="biggerNumber">
+          <label for="smallerNumber">Using multiples of</label>
+          <input id="smallerNumber" type="number" name="smallerNumber">
+          <button id="submit">Let's Count</button>
+
+          <div id="theMultiples" class="hidden">
+            <p>Here are the multiples of <span id="smallerNumber">_____</span> that can be counted up to <span id="biggerNumber">_____</span>:</p>
+            <label for="multiples"></label>
+            <input id="multiples" type="number" name="multiples">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,51 @@
+body {
+  font-family: 'Helvetica';
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+  background: #c8becc;
+  text-align: center;
+}
+
+h1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-sizing: border-box;
+  background-color: rgb(241, 216, 147);
+  color: #000;
+}
+
+p {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-sizing: border-box;
+  background-color: ivory;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
